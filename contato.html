@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portfólio Pessoal</title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="cabecalho"> 
+            <a href="index.html">Home</a>
+            <a href="sobreMim.html">Sobre mim</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="formacao.html">Formação</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+        <main class="conteudo">
+            
+            <div class="div-text">
+                <h1>Informe os dados abaixo:</h1>
+                <p></p>
+                <form>
+                    <label for="nome">Informe o seu nome:</label><br>
+                    <input type="text" required><br><br>
+
+                    <label for="email">Informe o seu e-mail:</label><br>
+                    <input type="email" required><br><br>
+                    <label for="mensagem">Deixe uma mensagem:</label><br>
+                    <textarea name="mensagem" id="mensagem" cols= "30" rows="5" required></textarea>
+                    <br>
+                    <button type="submit"  onclick="EnvioAlert()" class="botao">Enviar</button>
+                </form>
+
+            </div>
+            
+            <div class="img-ladinho">
+                <img src="img/imgContato.webp" alt="">
+            </div>
+        </main>
+
+        <footer class="rodape">
+                <p>Desenvolvido por Felipe Souza</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
